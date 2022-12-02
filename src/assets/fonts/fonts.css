@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('/src/assets/fonts/Mona-Sans-Regular.woff2') format('woff2 supports variations'),
+      url('/src/assets/fonts/Mona-Sans-Regular.woff2') format('woff2-variations');
+    font-weight: 400;
+    font-stretch: 100%;
+}
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('/src/assets/fonts/Mona-Sans-RegularWide.woff2') format('woff2 supports variations'),
+      url('/src/assets/fonts/Mona-Sans-RegularWide.woff2') format('woff2-variations');
+    font-weight: 400;
+    font-stretch: 125%;
+}
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('/src/assets/fonts/Mona-Sans-MediumWide.woff2') format('woff2 supports variations'),
+      url('/src/assets/fonts/Mona-Sans-MediumWide.woff2') format('woff2-variations');
+    font-weight: 500;
+    font-stretch: 125%;
+}
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('/src/assets/fonts/Mona-Sans-SemiBoldWide.woff2') format('woff2 supports variations'),
+      url('/src/assets/fonts/Mona-Sans-SemiBoldWide.woff2') format('woff2-variations');
+    font-weight: 600;
+    font-stretch: 125%;
+}
+  
