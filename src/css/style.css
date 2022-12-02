@@ -18,48 +18,31 @@
   font-stretch: 125%;
 }
 
-.fixed-header {
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-          backdrop-filter: saturate(180%) blur(20px);
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed !important;
-  bottom: unset !important;
-  top: 0 !important;
-}
-
 .text-branding {
   letter-spacing: 7px;
 }
 
-.opacity-link {
-  @apply opacity-50 hover:opacity-100 transition-opacity;
-}
-
-.opacity-link-alt {
-  @apply opacity-100 hover:opacity-50 transition-opacity;
-}
-
 @font-face {
   font-family: "Mona Sans";
-  src: url("/src/assets/fonts/Mona-Sans-Regular.woff2") format("woff2 supports variations"), url("/src/assets/fonts/Mona-Sans-Regular.woff2") format("woff2-variations");
+  src: url("./Mona-Sans-Regular.woff2") format("woff2 supports variations"), url("./Mona-Sans-Regular.woff2") format("woff2-variations");
   font-weight: 400;
   font-stretch: 100%;
 }
 @font-face {
   font-family: "Mona Sans";
-  src: url("/src/assets/fonts/Mona-Sans-RegularWide.woff2") format("woff2 supports variations"), url("/src/assets/fonts/Mona-Sans-RegularWide.woff2") format("woff2-variations");
+  src: url("./Mona-Sans-RegularWide.woff2") format("woff2 supports variations"), url("./Mona-Sans-RegularWide.woff2") format("woff2-variations");
   font-weight: 400;
   font-stretch: 125%;
 }
 @font-face {
   font-family: "Mona Sans";
-  src: url("/src/assets/fonts/Mona-Sans-MediumWide.woff2") format("woff2 supports variations"), url("/src/assets/fonts/Mona-Sans-MediumWide.woff2") format("woff2-variations");
+  src: url("./Mona-Sans-MediumWide.woff2") format("woff2 supports variations"), url("./Mona-Sans-MediumWide.woff2") format("woff2-variations");
   font-weight: 500;
   font-stretch: 125%;
 }
 @font-face {
   font-family: "Mona Sans";
-  src: url("/src/assets/fonts/Mona-Sans-SemiBoldWide.woff2") format("woff2 supports variations"), url("/src/assets/fonts/Mona-Sans-SemiBoldWide.woff2") format("woff2-variations");
+  src: url("./Mona-Sans-SemiBoldWide.woff2") format("woff2 supports variations"), url("./Mona-Sans-SemiBoldWide.woff2") format("woff2-variations");
   font-weight: 600;
   font-stretch: 125%;
 }
@@ -70,4 +53,5 @@
   height: auto;
   width: 80px;
 }
+
 /*# sourceMappingURL=style.css.map */
