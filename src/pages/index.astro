@@ -9,22 +9,24 @@ import '../css/style.css';
 
 <html lang="en-US">
     <MainHead/>
-    <body class="antialiased flex items-center justify-center h-full w-full absolute">
+    <body class="antialiased h-full absolute w-full flex justify-center items-center">
         <Starfield/>
-        <div class="fixed text-white fill-white flex-col flex pointer-events-none">
-            <div class="flex logotype flex-row items-center border-b-[0.5px] border-white border-opacity-40 pb-10">
-                <BrandIcon/>
-                <span class="ml-8 uppercase text-branding mona-regularwide text-2xl">the sapphire organization</span>
-            </div>
-            <div class="pt-10 flex flex-row justify-between">
-                <span class="mona-semiboldwide text-xl uppercase w-full text-branding">coming 2023</span>
-                <div class="links flex gap-5">
-                    <a href="https://github.com/sapphire-organization" rel="noopener" target="_blank" class="!pointer-events-auto">
-                        <Icon pack="mdi" name="github" class="h-10 hover:opacity-70 transition-opacity"/>
-                    </a>
-                    <a href="https://discord.gg/Rfm6d4yWVD" rel="noopener" target="_blank" class="!pointer-events-auto">
-                        <Icon pack="ic" name="baseline-discord" class="h-10 hover:opacity-70 transition-opacity"/>
-                    </a>
+        <div class="m-12">
+            <div class="text-white fill-white flex-col flex">
+                <div class="flex logotype items-center border-b-[0.5px] border-white border-opacity-40 pb-10 lg:text-left text-center lg:flex-row flex-col">
+                    <BrandIcon/>
+                    <span class="lg:mt-0 mt-10 lg:ml-6 ml-0 uppercase text-branding mona-regularwide text-base lg:text-2xl  pointer-events-none">the sapphire organization</span>
+                </div>
+                <div class="pt-10 flex flex-row justify-between">
+                    <span class="mona-semiboldwide uppercase w-full text-branding flex items-center text-base lg:text-xl  pointer-events-none">coming 2023</span>
+                    <div class="links flex gap-5">
+                        <a href="https://github.com/sapphire-organization" rel="noopener" target="_blank">
+                            <Icon pack="mdi" name="github" class="h-10 hover:opacity-60 transition-opacity"/>
+                        </a>
+                        <a href="https://discord.gg/Rfm6d4yWVD" rel="noopener" target="_blank">
+                            <Icon pack="ic" name="baseline-discord" class="h-10 hover:opacity-60 transition-opacity"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
