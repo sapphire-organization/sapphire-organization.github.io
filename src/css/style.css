@@ -47,7 +47,7 @@
   font-stretch: 125%;
 }
 * {
-  font-family: "Mona Sans", sans-serif;
+  font-family: "Mona Sans", sans-serif !important;
 }
 * body .logotype svg {
   height: auto;
