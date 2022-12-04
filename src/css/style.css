@@ -1,24 +1,29 @@
 .mona-mediumwide {
+  font-family: "Mona Sans", sans-serif !important;
   font-weight: 500;
   font-stretch: 125%;
 }
 
 .mona-regular {
+  font-family: "Mona Sans", sans-serif !important;
   font-weight: 400;
   font-stretch: 100%;
 }
 
 .mona-regularwide {
+  font-family: "Mona Sans", sans-serif !important;
   font-weight: 400;
   font-stretch: 125%;
 }
 
 .mona-semiboldwide {
+  font-family: "Mona Sans", sans-serif !important;
   font-weight: 600;
   font-stretch: 125%;
 }
 
 .text-branding {
+  font-family: "Mona Sans", sans-serif !important;
   letter-spacing: 7px;
 }
 
